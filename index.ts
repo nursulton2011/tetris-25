@@ -58,7 +58,6 @@ function renderShape() {
     }
 }
 
-
 function rotateShape(shape) {
     if (shape.length === 2 && shape[0].length === 2) return shape
 
@@ -103,10 +102,3 @@ const playground = []
 for (let row = 0; row < 20; row++ ) {
    playground[row] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 }
-
-playground[0][4] = 1
-playground[1][4] = 1
-playground[2][4] = 1
-playground[3][4] = 1
-
-console.log(playground);
